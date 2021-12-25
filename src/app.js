@@ -37,3 +37,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(app.get('port'), function(){
     console.log("Te escucho en el puerto" + app.get('port'));
 })
+app.get('/', function(req, res){
+    res.send("Aqui va mi sitio web")
+})

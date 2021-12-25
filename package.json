@@ -4,7 +4,7 @@
   "description": "A website build with nodejs and mysql",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app"
   },
   "author": "Jenny Huanca Anquise",
   "license": "ISC",
