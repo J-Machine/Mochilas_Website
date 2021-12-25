@@ -35,5 +35,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Start server
 app.listen(app.get('port'), function(){
-    console.log("Te escucho en el puerto 3000");
+    console.log("Te escucho en el puerto" + app.get('port'));
 })
