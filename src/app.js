@@ -16,13 +16,14 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Middleweres
 app.use(morgan('dev'));
-/* app.use(myConnection(mysql, {
-    host: 'localhost',
-    database:'biblioteca',
-    user: 'root',
-    password: 'root',
-    port: 3306
-}, 'single')); */
+app.use(myConnection(mysql, {
+    host: 'us-cdbr-east-05.cleardb.net',
+    database:'heroku_fa01200bfaa5ab0',
+    user: 'bd97e789a86a2e',
+    password: '7fda18de'
+    // port: 3306
+}, 'single'));
+
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
@@ -35,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Start server
 app.listen(app.get('port'), function(){
-    console.log("Te escucho en el puerto" + app.get('port'));
+    console.log(`Listen server on port ${app.get('port')}`); 
 })
 app.get('/', function(req, res){
     res.send("Aqui va mi sitio web")
