@@ -17,21 +17,21 @@ app.set('views', path.join(__dirname, 'views'));
 // Middleweres
 app.use(morgan('dev'));
 
-/*app.use(myConnection(mysql, {
+app.use(myConnection(mysql, {
     host: 'us-cdbr-east-05.cleardb.net',
     database:'heroku_fa01200bfaa5ab0',
-    user: 'bd97e789a86a2e',
-    password: '7fda18de'
+    user: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD
     // port: 3306
-}, 'single')); */
+}, 'pool'));
 
-// Usando pool
+/*// Usando pool
 const pool = mysql.createPool({
     host: 'us-cdbr-east-05.cleardb.net',
     database:'heroku_fa01200bfaa5ab0',
     user: 'bd97e789a86a2e',
     password: '7fda18de'
-});
+});*/
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
