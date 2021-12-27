@@ -1,0 +1,95 @@
+/*Primera Seccion*/
+header{
+    width: 100%;
+    height: 70px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.conteiner{
+    width: 98%;
+    margin: auto;
+    
+}
+.conteiner a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    color:#333;
+    float: right;
+    border: 1px solid #fff;
+    width: 60px;
+    height: 20px;
+    padding: 3px;
+    background: #fff;
+}
+/*Segunda Seccion*/
+body{
+    background-image: url(../IMG/2.jpg);
+	background-size: cover;
+}
+section{
+    margin-top: 90px;
+    position: relative;
+    
+
+}
+article{
+    float: left;
+    padding: 25px;
+    width: 68%;
+    
+    height: 100%; /* only for demonstration, should be removed */
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table th, td{
+    text-align: center;
+    border: 1.5px solid rgb(240, 238, 238);
+}
+
+th{
+    background-color: #fff;
+    color: #333;
+}
+#casilla td{
+    background:rgb(187, 188, 189);
+    -moz-opacity:.50;opacity:.80;
+}
+#botones a{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+
+}
+#botones a:hover, a:active {
+    background-color: rgba(31, 146, 93, 0.733);
+  }
+  
+#botones a{
+    text-decoration: none;
+    background: rgb(3, 156, 245);
+    color: #000;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+
+}
+#botones a:hover, a:active {
+    background-color: rgba(6, 250, 67, 0.979);
+  }
+
+
+
+

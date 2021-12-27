@@ -1,0 +1,51 @@
+/*Primera Seccion*/
+header{
+    width: 100%;
+    height: 70px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.conteiner{
+    width: 98%;
+    margin: auto;
+    
+}
+.conteiner a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    color:#333;
+    float: right;
+    border: 1px solid #fff;
+    width: 60px;
+    height: 20px;
+    padding: 3px;
+    background: #fff;
+}
+/*Segunda Seccion*/
+body{
+    background-image: url(../IMG/lentes.jpg);
+	background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+section{
+    margin-top: 500px;
+    margin-right: 800px;
+    position: relative;
+}
+#hola h1{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+
+

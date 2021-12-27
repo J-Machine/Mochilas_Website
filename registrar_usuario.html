@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar usuario</title>
+    <link rel="stylesheet" href="css/registrar_usuario.css">
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <h1>Registar Usuario</h1>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <form action="registrar_usuario.php" method="post">
+                <h1>Registo de usuario</h1>
+                <p>Nombre
+                    <input type="text" placeholder="Ingrese su Nombre completo" name="_nombre" >
+                </p>
+                <p>Primer Apellido 
+                    <input type="text" placeholder="Ingrese su Primer Apellido" name="_primer">
+                </p>
+                <p>Segundo Apellido
+                    <input type="text" placeholder="Ingrese su Segundo Apellido" name="_segundo">
+                </p>
+                <p>Documento de Identidada(DNI)
+                    <input type="number" placeholder="Ingrese su DNI" name="_dni">
+                </p>
+                <p>Teléfono
+                    <input type="number" placeholder="Ingrese su numero telefónico" name="_telefono">
+                </p>
+                <p>Correo Electrónido
+                    <input type="email" placeholder="Ingrese su Correo Electrónico" name="_correo">
+                </p>
+                <p>Usuario
+                    <input type="text" placeholder="Ingrese un nombre para su Usuario" name="_usuario">
+                </p>
+                <p>Contraseña 
+                    <input type="password" placeholder="Ingrese una contraseña" name="_contraseña">
+                </p>
+                <input type="submit" value="Confirmar">
+            </form>
+        </nav>
+    </section>
+</body>
+</html>
